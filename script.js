@@ -93,7 +93,7 @@ function tapLove(id) {
       if (!loveMsg) return console.error('Không tìm thấy element loveMsg!');
 
       typeWriterEffect(
-        `Gửi bạn ${userName}, Hôm nay 20-10, ĐVP-VNU xin chúc bạn luôn xinh đẹp, học giỏi và tràn đầy năng lượng! Hy vọng mỗi ngày đều mang đến cho các bạn thật nhiều niềm vui, tiếng cười và những điều tuyệt vời nhất. Cảm ơn vì luôn là nguồn cảm hứng và tinh thần nhiệt huyết của cả đội nhé! 🌺🌷 `,
+        `Gửi bạn ${userName}, Hôm nay 20-10, ĐVP-VNU xin chúc bạn luôn xinh đẹp, học giỏi và tràn đầy năng lượng! Hy vọng mỗi ngày đều mang đến cho các bạn thật nhiều niềm vui, tiếng cười và những điều tuyệt vời nhất. Cảm ơn vì luôn là nguồn cảm hứng và tinh thần nhiệt huyết của cả Đội nhé! 🌺🌷 `,
         'loveMsg',
         () => {
           const fromTag = document.createElement("div");
